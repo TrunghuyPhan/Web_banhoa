@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="top_header">
+            <div class="container"></div>
+        </div>
+
+        <div class="center_header">
+
+            <img id="logo" src="~/Images/logo.png" />
+            <input type="search" placeholder="Tìm kiếm" id="search" />
+            <ul class="extra_menu">
+                <li><a href="#">Đăng nhập</a></li>
+                <li><a href="#">Đăng ký</a></li>
+                <li><a href="#">Giỏ hàng<i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        <div class="main_menu">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Hoa khai trương</a></li>
+                    <li><a href="#">Hoa sinh nhật</a></li>
+                    <li><a href="#">Hoa tình yêu</a></li>
+                    <li><a href="#">Hoa chia buồn</a></li>
+                    <li><a href="#">Hoa cưới</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <div class="1container">
+        @RenderBody()    
+    </div>
+    <div id="footer1">
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
