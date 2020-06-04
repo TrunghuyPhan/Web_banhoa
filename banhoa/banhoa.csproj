@@ -191,7 +191,11 @@
     <Content Include="Images\Hoa1.jpg" />
     <Content Include="Images\hoa2.jpg" />
     <Content Include="Images\hoa3.jpg" />
-    <Content Include="Images\logo.png" />
+    <Content Include="Images\img %2812%29.jpg" />
+    <Content Include="Images\img %2813%29.jpg" />
+    <Content Include="Images\img %283%29.jpg" />
+    <Content Include="Images\img %288%29.jpg" />
+    <Content Include="Images\logo.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\fa-brands-400.eot" />
