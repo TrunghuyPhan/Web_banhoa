@@ -1,4 +1,5 @@
-﻿using System;
+﻿using banhoa.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,23 +9,47 @@ namespace banhoa.Controllers
 {
     public class HomeController : Controller
     {
+
+        ApplicationDbContext dbContext = new ApplicationDbContext();
+        // GET: Hoa
         public ActionResult Index()
         {
-            return View();
-        }
+            List<Hoa> listHoa = dbContext.hoas.Take(3).ToList();//database
+            return View(listHoa);
 
-        public ActionResult About()
+        }
+        public ActionResult XemChiTiet(int id)
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            Hoa hoa = dbContext.hoas.Find(id);//database
+            return View("XemChiTiet", hoa);
         }
-
-        public ActionResult Contact()
+        public ActionResult HoDiepTrang()
         {
-            ViewBag.Message = "Your contact page.";
+            
 
             return View();
         }
+        public ActionResult HoDiepTim()
+        {
+
+
+            return View();
+        }
+       
+        public ActionResult HoDiepVang()
+        {
+
+
+            return View();
+        }
+        public ActionResult HoDiepXanhDuong()
+        {
+
+
+            return View();
+        }
+      
+
+
     }
 }

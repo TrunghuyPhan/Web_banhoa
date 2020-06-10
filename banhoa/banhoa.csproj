@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -168,12 +169,20 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HoaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006090321135_createtableHoa.cs" />
+    <Compile Include="Migrations\202006090321135_createtableHoa.Designer.cs">
+      <DependentUpon>202006090321135_createtableHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDBContext.cs" />
+    <Compile Include="Models\Hoa.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -182,20 +191,25 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\render-index.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fa-brands-400.svg" />
     <Content Include="fonts\fa-regular-400.svg" />
     <Content Include="fonts\fa-solid-900.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\Hoa1.jpg" />
-    <Content Include="Images\hoa2.jpg" />
-    <Content Include="Images\hoa3.jpg" />
-    <Content Include="Images\img %2812%29.jpg" />
-    <Content Include="Images\img %2813%29.jpg" />
-    <Content Include="Images\img %283%29.jpg" />
-    <Content Include="Images\img %288%29.jpg" />
-    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\banner1.jpg" />
+    <Content Include="Images\banner2.jpg" />
+    <Content Include="Images\banner3.jpg" />
+    <Content Include="Images\gif1.gif" />
+    <Content Include="Images\gif2.gif" />
+    <Content Include="Images\gif3.jpg" />
+    <Content Include="Images\logo1.JPG" />
+    <Content Include="Images\tim1.jpg" />
+    <Content Include="Images\trang1.jpg" />
+    <Content Include="Images\trang2.jpg" />
+    <Content Include="Images\vang1.jpg" />
+    <Content Include="Images\xanhduong1.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\fa-brands-400.eot" />
@@ -256,6 +270,13 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\HoDiepTrang.cshtml" />
+    <Content Include="Views\Home\HoDiepTim.cshtml" />
+    <Content Include="Views\Home\HoDiepVang.cshtml" />
+    <Content Include="Views\Home\HoDiepXanhDuong.cshtml" />
+    <Content Include="Views\Hoa\View.cshtml" />
+    <Content Include="Views\Hoa\XemChiTiet.cshtml" />
+    <Content Include="Views\Home\XemChiTiet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -264,6 +285,11 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202006090321135_createtableHoa.resx">
+      <DependentUpon>202006090321135_createtableHoa.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

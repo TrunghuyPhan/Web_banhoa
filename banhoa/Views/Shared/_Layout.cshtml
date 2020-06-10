@@ -6,46 +6,125 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link href="~/Content/Style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
 
 </head>
 <body>
-    <header>
-        <div class="top_header">
-            <div class="container"></div>
-        </div>
+    <header class="header">
+
 
         <div class="center_header">
-
-            <img id="logo" src="~/Images/logo.jpg" />
+            <img class="logo" src="~/Images/logo1.JPG" />
+            
             <input type="search" placeholder="Tìm kiếm" id="search" />
             <ul class="extra_menu">
-                <li><a href="#">Đăng nhập</a></li>
-                <li><a href="#">Đăng ký</a></li>
+                <li>@Html.ActionLink("Đăng Nhập", "Login", "Account")</li>
+                <li>@Html.ActionLink("Đăng Ký", "Register", "Account")</li>
+
                 <li><a href="#">Giỏ hàng<i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </div>
         <div class="main_menu">
             <div class="container">
                 <ul class="menu">
-                    <li><a href="#">Trang chủ</a></li>
-                    <li><a href="#">Hoa khai trương</a></li>
-                    <li><a href="#">Hoa sinh nhật</a></li>
-                    <li><a href="#">Hoa tình yêu</a></li>
-                    <li><a href="#">Hoa chia buồn</a></li>
-                    <li><a href="#">Hoa cưới</a></li>
+                    <li>
+                        @Html.ActionLink("Trang Chủ", "Index", "Home")
+
+                    </li>
+                    <li>
+                        @Html.ActionLink("Hồ Điệp Trắng", "HoDiepTrang", "Home")
+
+                    </li>
+                    <li>
+                        @Html.ActionLink("Hồ Điệp Tím ", "HoDiepTim", "Home")
+
+                    </li>
+                    <li>
+                        @Html.ActionLink("Hồ Điệp Vàng", "HoDiepVang", "Home")
+
+                    </li>
+                    <li>
+                        @Html.ActionLink("Hồ Điệp Xanh Dương", "HoDiepXanhDuong", "Home")
+
+                    </li>
+                   
 
                 </ul>
             </div>
-        </div>
-    </header>
-    
-    <div class="1container">
-        @RenderBody()    
-    </div>
-    <div id="footer1">
 
+        </div>
+
+    </header>
+    @if (IsSectionDefined("Slider"))
+    {
+
+        @RenderSection("Slider",required:false)
+    
+    }
+    
+        @RenderBody()
+    
+    
+    <div class="footer">
+        <div class="container">
+            <div class="col-md-3 footer-grid">
+                <h3>Giới thiệu</h3>
+                <p>
+                    Chúng tôi chuyên cung cấp hoa lan hồ điệp giá tốt rẻ nhất. Các loại hoa tươi cho các dịp, sự kiện…
+
+                    Bạn hoàn toàn yên tâm và chất lượng cũng như giá cả khi đặt hoa bên mình với giá ưu đãi, chiết khấu cao và đảm bảo uy tín.
+                </p>
+            </div>
+            <div class="col-md-3 footer-grid ">
+                <h3>Menu</h3>
+                <ul class="extra_menu">
+                    <li><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid">
+                <h3>Tài khoản</h3>
+                <ul class="extra_menu">
+                    <li><a href="@Url.Action("Login", "Account")">Đăng Nhập</a></li>
+                    <li><a href="@Url.Action("Register", "Account")">Đăng Ký</a></li>
+
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footer-bottom">
+                <h2><a href="@Url.Action("Index", "Home")"><b>S<br>H<br>O<br>P</b>Orchids<span>The Best Of Orchids</span></a></h2>
+                <ul class="social-fo">
+                    <li><a href="http://facebook.com" target="_blank" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class=" address">
+                    <div class="col-md-4 fo-grid1">
+                        <p><i class="fa fa-home" aria-hidden="true"></i>Hutech, TPHCM.</p>
+                    </div>
+                    <div class="col-md-4 fo-grid1">
+                        <p><i class="fa fa-phone" aria-hidden="true"></i>0123456789</p>
+                    </div>
+                    <div class="col-md-4 fo-grid1">
+                        <p><a href="mailto:abc@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>abc@gmail.com</a></p>
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+            </div>
+            <div class="copy-right">
+                <p> &copy; 2020 Orchids. All Rights Reserved | Design by  <a target="_blank" href="http://facebook.com">Anh Huỳnh</a></p>
+            </div>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
