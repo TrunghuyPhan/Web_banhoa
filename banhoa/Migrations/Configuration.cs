@@ -45,6 +45,62 @@ namespace banhoa.Migrations
 
                     Hinh = "/images/tim1.jpg"
 
+                },
+                new Hoa()
+                {
+                    IdHoa = 4,
+                    Ten = "Hoa D",
+                    Gia = 100000,
+
+                    Hinh = "/images/tim1.jpg"
+
+                },
+
+                new Hoa()
+                {
+                    IdHoa = 5,
+                    Ten = "Hoa E",
+                    Gia = 100000,
+
+                    Hinh = "/images/tim1.jpg"
+
+                },
+                new Hoa()
+                {
+                    IdHoa = 6,
+                    Ten = "Hoa F",
+                    Gia = 100000,
+
+                    Hinh = "/images/tim1.jpg"
+
+                },
+                 new Hoa()
+                 {
+                     IdHoa = 7,
+                     Ten = "Hoa G",
+                     Gia = 100000,
+
+                     Hinh = "/images/tim1.jpg"
+
+                 },
+
+                new Hoa()
+                {
+                    IdHoa = 8,
+                    Ten = "Hoa H",
+                    Gia = 100000,
+
+                    Hinh = "/images/tim1.jpg"
+
+                },
+                new Hoa()
+                {
+                    IdHoa = 9,
+                    Ten = "Hoa K",
+                    Gia = 100000,
+
+                    Hinh = "/images/tim1.jpg"
+
                 }
                 );
         }

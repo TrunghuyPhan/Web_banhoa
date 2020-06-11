@@ -192,6 +192,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\render-index.css" />
+    <Content Include="Content\Style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fa-brands-400.svg" />
     <Content Include="fonts\fa-regular-400.svg" />
@@ -201,6 +202,8 @@
     <Content Include="Images\banner1.jpg" />
     <Content Include="Images\banner2.jpg" />
     <Content Include="Images\banner3.jpg" />
+    <Content Include="Images\banner4.jpg" />
+    <Content Include="Images\banner5.jpg" />
     <Content Include="Images\gif1.gif" />
     <Content Include="Images\gif2.gif" />
     <Content Include="Images\gif3.jpg" />

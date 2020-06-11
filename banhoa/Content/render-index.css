@@ -1,17 +1,71 @@
-﻿body {
+﻿.body {
+
 }
 .text-1 p {
     font-size: 20px;
-    color: palegoldenrod;
+    color: black;
 }
-.row .pic img{
+/*.row .pic img{
     
     height:300px;
+}*/
+.body .container{
+    width:90%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #DDD;
+    box-shadow: -7px 4px 24px 4px #ece9e9;
+    margin-bottom: 20px;
 }
-#btn1{
-    
+.thumbnail product-box{
 
 }
-#btn2{
+
+.pic{
+    display: block;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    width: 100%;
+    padding: 5px 0;
+    
+}
+.image{
+    border-radius: 7px;
+    width:334px;
+
+}
+#btn1{
+    background: transparent;
+    border-radius: 5px;
+    padding: 0 0.7143em;
+    line-height: 2.0571em;
+    z-index: 1;
+    border: 1px solid #ccc;
+    color: #333;
+    white-space: nowrap;
+    text-shadow: none;
+    height:30px;
+    font-size:15px;
+    font-weight:700;
+    float:right;
+    margin-right:30px;
+    margin-bottom:20px;
+}
+.h2{
+    padding:10px;
+}
+.a{
+    color:black;
+    font-weight:500;
+    font-size:20px;
+}
+.gia{
+    float:left;
+    margin-left:30px;
+    font-size:17px;
+    color:red;
 
 }
