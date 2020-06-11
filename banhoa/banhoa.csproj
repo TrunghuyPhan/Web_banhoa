@@ -169,6 +169,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HoaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -178,6 +179,10 @@
     <Compile Include="Migrations\202006090321135_createtableHoa.cs" />
     <Compile Include="Migrations\202006090321135_createtableHoa.Designer.cs">
       <DependentUpon>202006090321135_createtableHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006111301244_Acc.cs" />
+    <Compile Include="Migrations\202006111301244_Acc.Designer.cs">
+      <DependentUpon>202006111301244_Acc.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -191,6 +196,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\partial.css" />
     <Content Include="Content\render-index.css" />
     <Content Include="Content\Style.css" />
     <Content Include="favicon.ico" />
@@ -280,6 +286,11 @@
     <Content Include="Views\Hoa\View.cshtml" />
     <Content Include="Views\Hoa\XemChiTiet.cshtml" />
     <Content Include="Views\Home\XemChiTiet.cshtml" />
+    <Content Include="Views\Admin\Create.cshtml" />
+    <Content Include="Views\Admin\Delete.cshtml" />
+    <Content Include="Views\Admin\Details.cshtml" />
+    <Content Include="Views\Admin\Edit.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -292,6 +303,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202006090321135_createtableHoa.resx">
       <DependentUpon>202006090321135_createtableHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006111301244_Acc.resx">
+      <DependentUpon>202006111301244_Acc.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

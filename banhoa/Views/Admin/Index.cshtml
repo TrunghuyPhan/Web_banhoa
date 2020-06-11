@@ -1,0 +1,46 @@
+﻿@model IEnumerable<banhoa.Models.Hoa>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hinh)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hinh)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdHoa }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdHoa }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdHoa })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,14 +1,32 @@
-﻿
-@{
-    ViewBag.Title = "HoDiepTim";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-<p>
-    màu tím rất được nhiều người yêu thích trong các dịp lễ tết, cùng với sự khoe sắc vàng của hoa mai, sắc hồng của hoa đào thì màu tím của hoa hồ điệp cũng không kém cạnh với sự sặc sỡ của màu tím cùng sự tươi tắn chắc khỏe từ mỗi cánh hoa phong lan được nở một cách đối xứng, hoa vươn lên phía trên theo thân cây thẳng đứng rồi nhẹ nhàng nghiêng xuống để khoe sắc.
+﻿@model IEnumerable<banhoa.Models.Hoa>
+    <link href="~/Content/render-index.css" rel="stylesheet" />
+    @{
+        ViewBag.Title = "HoDiepTim";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    <div class="body" style="margin-top:20px">
+    <div class="container">
 
-    Bạn cũng thường thấy những cặp đôi yêu nhau, vợ với chồng thường tặng nhau chậu hoa lan đẹp. Bởi lẽ hoa hồ điệp đẹp màu tím tượng trưng cho sự chung thủy sắc son trong tình yêu, tình cảm đậm sâu và bền lâu, hơn thế nữa sắc tím của hoa hồ điệp thể hiện sự lãng mạn, nhẹ nhàng, tinh tế…khó có cô gái, chàng trai nào có thể chối từ một chậu hoa lan hồ điệp đẹp lại mang nhiều ý nghĩa như vậy.
-    Bạn là lãnh đạo, cấp trên đang muốn lựa chọn món quà làm phần thưởng cho nhân viên thì một chậu lan hồ điệp là món quà tuyệt vời với ý nghĩa công nhận công lao của nhân viên và ngầm mong muốn sự trung thành, làm việc bền lâu của nhân viên đó với công ty.
-</p>
-<img src="~/Images/tim1.jpg" />
-
-
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div @*class="thumbnail product-box"*@>
+                        <div class="pic">
+                            <a href="/Hoa/XemChiTiet/@item.IdHoa">
+                                <img class="image" src="@Html.DisplayFor(modelItem => item.Hinh)" alt="">
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h2 class="h2"><a class="a" href="@Url.Action("XemChiTiet",new { id = item.IdHoa})">  @Html.DisplayFor(modelItem => item.Ten) </a></h2>
+                            <span class="gia">Giá : <strong>@Html.DisplayFor(modelItem => item.Gia)</strong>  </span>
+                            <p>
+                                <a href="#" id="btn1" class="btn btn-success fa fa-shopping-cart" role="button">  Đặt mua</a>
+                                @*<a href="@Url.Action("XemChiTiet",new { id = item.IdHoa})" id="btn2" class="btn btn-primary" role="button">Xem Chi Tiết</a>*@
+                            </p>
+                        </div>
+                    </div>
+                </div>}
+        </div>   
+    </div>
+</div>

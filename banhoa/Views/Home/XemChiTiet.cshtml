@@ -4,10 +4,10 @@
     ViewBag.Title = "XemChiTiet";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<link href="~/Content/render-index.css" rel="stylesheet" />
 <h2>XemChiTiet</h2>
 
-<div>
+<div style="font-size:20px">
     <h4>Hoa</h4>
     <hr />
     <dl class="dl-horizontal">
@@ -32,9 +32,9 @@
         </dt>
 
         <dd>
-            <img src="@Html.DisplayFor(model => model.Hinh)" height="300px"/>
+                <img class="image" src="@Html.DisplayFor(model => model.Hinh)"/>
         </dd>
-
+        
     </dl>
 </div>
 <p>

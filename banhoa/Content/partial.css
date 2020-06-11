@@ -1,0 +1,31 @@
+﻿body {
+}
+.extra_menu > #registerLink {
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+}
+.extra_menu > #loginLink {
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+}
+    .extra_menu > #loginLink > a {
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none
+    }
+
+.extra_menu1 > li {
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+}
+
+    .extra_menu1 > li > a {
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none
+    }

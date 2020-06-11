@@ -26,12 +26,9 @@
             <img class="logo" src="~/Images/logo1.JPG" />
             
             <input type="search" placeholder="Tìm kiếm" id="search" />
-            <ul class="extra_menu">
-                <li>@Html.ActionLink("Đăng Nhập", "Login", "Account")</li>
-                <li>@Html.ActionLink("Đăng Ký", "Register", "Account")</li>
-
-                <li><a href="#">Giỏ hàng<i class="fa fa-shopping-cart"></i></a></li>
-            </ul>
+          
+                @Html.Partial("_LoginPartial")
+            
         </div>
         <div class="main_menu">
             <div class="container">

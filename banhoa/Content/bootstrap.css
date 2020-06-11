@@ -1718,7 +1718,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 30%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
@@ -4242,11 +4242,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 
-.navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
-}
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 20px;
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none
+    }
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {

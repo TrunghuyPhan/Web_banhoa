@@ -1,14 +1,32 @@
-﻿
+﻿@model IEnumerable<banhoa.Models.Hoa>
 @{
     ViewBag.Title = "HoDiepXanhDuong";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link href="~/Content/render-index.css" rel="stylesheet" />
+<div class="body" style="margin-top:20px">
+    <div class="container">
 
-<p>
-    Lan hồ điệp màu xanh dương màu của bầu trời. Giống hoa lan màu này rất hiếm do quá trình trồng phải có nhiều kỹ thuật và dưỡng chất nuôi cây dành riêng cho nó, để có thể tạo nên những bông hoa xanh dương tuyệt đẹp. Màu xanh biểu tượng cho sự cao quý, và vô cùng quý giá. Ngoài ra nó còn chút thiên về tâm linh và thiền định.
-    Những chậu lan hồ điệp đẹp màu xanh dương, màu của sự tự do, nhìn lên bầu trời trong xanh, bạn sẽ cảm thấy thoải mái, hòa mình và trôi theo những đám mây.Hoa lan hồ điệp xanh được trồng trong chậu sứ là món quà tuyệt vời trong dịp sinh nhật, mừng thọ, hay những sự kiện khai trương, mở cửa hàng, công ty… mang đến sự thịnh vượng cho doanh nghiệp, đối tác, bạn bè, người thân.
-
-    Ngoài ra còn rất nhiều màu hoa lan hồ điệp khác nữa, mỗi màu đều mang lại nét đẹp riêng cho hồ điệp. Bởi vẻ đẹp không thể sang trọng quý phải được thể hiện lẫn bên ngoài và bên trong.
-</p>
-<img src="~/Images/xanhduong1.jpg" />
-
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div @*class="thumbnail product-box"*@>
+                        <div class="pic">
+                            <a href="/Hoa/XemChiTiet/@item.IdHoa">
+                                <img class="image" src="@Html.DisplayFor(modelItem => item.Hinh)" alt="">
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h2 class="h2"><a class="a" href="@Url.Action("XemChiTiet",new { id = item.IdHoa})">  @Html.DisplayFor(modelItem => item.Ten) </a></h2>
+                            <span class="gia">Giá : <strong>@Html.DisplayFor(modelItem => item.Gia)</strong>  </span>
+                            <p>
+                                <a href="#" id="btn1" class="btn btn-success fa fa-shopping-cart" role="button">  Đặt mua</a>
+                                @*<a href="@Url.Action("XemChiTiet",new { id = item.IdHoa})" id="btn2" class="btn btn-primary" role="button">Xem Chi Tiết</a>*@
+                            </p>
+                        </div>
+                    </div>
+                </div>}
+        </div>
+    </div>
+</div>

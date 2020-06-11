@@ -1,11 +1,33 @@
-﻿
+﻿@model IEnumerable<banhoa.Models.Hoa>
 @{
     ViewBag.Title = "HoDiepVang";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link href="~/Content/render-index.css" rel="stylesheet" />
+<div class="body" style="margin-top:20px">
+    <div class="container">
 
-<p>
-    Lan hồ điệp màu vàng tượng trưng cho tình bạn thể hiện tình cảm chân thành. Bạn mong muốn tình bạn bền chặt, dài lâu thì đây là một sự lựa chọn rất khôn khéo và thông mình để tặng người bạn của mình và ngầm gửi tới thông điệp mà không phải nói ra bằng lời. Có thể nhân dịp sinh nhật, dịp bạn mình có công việc mới hoặc gửi lời cảm ơn tới bạn đã giúp đỡ mình bằng món quà đầy ý nghĩa này.
-</p>
-<img src="~/Images/vang1.jpg" />
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div @*class="thumbnail product-box"*@>
+                        <div class="pic">
+                            <a href="/Hoa/XemChiTiet/@item.IdHoa">
+                                <img class="image" src="@Html.DisplayFor(modelItem => item.Hinh)" alt="">
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h2 class="h2"><a class="a" href="@Url.Action("XemChiTiet",new { id = item.IdHoa})">  @Html.DisplayFor(modelItem => item.Ten) </a></h2>
+                            <span class="gia">Giá : <strong>@Html.DisplayFor(modelItem => item.Gia)</strong>  </span>
+                            <p>
+                                <a href="#" id="btn1" class="btn btn-success fa fa-shopping-cart" role="button">  Đặt mua</a>
+                                @*<a href="@Url.Action("XemChiTiet",new { id = item.IdHoa})" id="btn2" class="btn btn-primary" role="button">Xem Chi Tiết</a>*@
+                            </p>
+                        </div>
+                    </div>
+                </div>}
+        </div>
+    </div>
+</div>
 
