@@ -14,7 +14,7 @@ namespace banhoa.Controllers
         // GET: Hoa
         public ActionResult Index()
         {
-            List<Hoa> listHoa = dbContext.hoas.Take(9).ToList();//database
+            List<Hoa> listHoa = dbContext.hoas.Take(20).ToList();//database
             return View(listHoa);
 
         }
@@ -25,30 +25,38 @@ namespace banhoa.Controllers
         }
         public ActionResult HoDiepTrang()
         {
-            List<Hoa> listHoa = dbContext.hoas.Take(9).ToList();//database
+            List<Hoa> listHoa = dbContext.hoas.Take(20).ToList();//database
             return View(listHoa);
         }
         public ActionResult HoDiepTim()
         {
-            List<Hoa> listHoa = dbContext.hoas.Take(9).ToList();//database
+            List<Hoa> listHoa = dbContext.hoas.Take(20).ToList();//database
             return View(listHoa);
 
-           
+
         }
-       
+
         public ActionResult HoDiepVang()
         {
-            List<Hoa> listHoa = dbContext.hoas.Take(9).ToList();//database
+            List<Hoa> listHoa = dbContext.hoas.Take(20).ToList();//database
             return View(listHoa);
-           
+
         }
         public ActionResult HoDiepXanhDuong()
         {
-            List<Hoa> listHoa = dbContext.hoas.Take(9).ToList();//database
+            List<Hoa> listHoa = dbContext.hoas.Take(20).ToList();//database
             return View(listHoa);
         }
-      
 
+        public ActionResult LienHe()
+        {
+
+            return View();
+
+
+
+        }
+      
 
     }
 }

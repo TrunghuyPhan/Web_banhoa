@@ -10,110 +10,87 @@ using banhoa.Models;
 
 namespace banhoa.Controllers
 {
-    public class AdminController : Controller
+    public class KhachHangsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Admin
+        // GET: KhachHangs
         public ActionResult Index()
         {
-            return View(db.hoas.ToList());
+            return View(db.khachHangs.ToList());
         }
 
-        // GET: Admin/Details/5
+        // GET: KhachHangs/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Hoa hoa = db.hoas.Find(id);
-            if (hoa == null)
+            KhachHang khachHang = db.khachHangs.Find(id);
+            if (khachHang == null)
             {
                 return HttpNotFound();
             }
-            return View(hoa);
+            return View(khachHang);
         }
 
-        // GET: Admin/Create
+        // GET: KhachHangs/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Admin/Create
+        // POST: KhachHangs/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IdHoa,Ten,GiaBan,SoLuongCon,MoTa,Hinh")] Hoa hoa)
+        public ActionResult Create([Bind(Include = "IDKhachHang,HoTen,DiaChi,GioiTinh,SDT")] KhachHang khachHang)
         {
             if (ModelState.IsValid)
             {
-                db.hoas.Add(hoa);
+                db.khachHangs.Add(khachHang);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Create");
             }
 
-            return View(hoa);
+            return View(khachHang);
         }
 
-        // GET: Admin/Edit/5
+        // GET: KhachHangs/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Hoa hoa = db.hoas.Find(id);
-            if (hoa == null)
+            KhachHang khachHang = db.khachHangs.Find(id);
+            if (khachHang == null)
             {
                 return HttpNotFound();
             }
-            return View(hoa);
+            return View(khachHang);
         }
 
-        // POST: Admin/Edit/5
+        // POST: KhachHangs/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "IdHoa,Ten,GiaBan,SoLuongCon,MoTa,Hinh")] Hoa hoa)
+        public ActionResult Edit([Bind(Include = "IDKhachHang,HoTen,DiaChi,GioiTinh,SDT")] KhachHang khachHang)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(hoa).State = EntityState.Modified;
+                db.Entry(khachHang).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(hoa);
+            return View(khachHang);
         }
 
-        // GET: Admin/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Hoa hoa = db.hoas.Find(id);
-            if (hoa == null)
-            {
-                return HttpNotFound();
-            }
-            return View(hoa);
-        }
+        // GET: KhachHangs/Delete/5
 
-        // POST: Admin/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            Hoa hoa = db.hoas.Find(id);
-            db.hoas.Remove(hoa);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
 
         protected override void Dispose(bool disposing)
         {

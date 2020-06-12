@@ -172,6 +172,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HoaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KhachHangsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -184,9 +185,22 @@
     <Compile Include="Migrations\202006111301244_Acc.Designer.cs">
       <DependentUpon>202006111301244_Acc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006120529028_KhachHang.cs" />
+    <Compile Include="Migrations\202006120529028_KhachHang.Designer.cs">
+      <DependentUpon>202006120529028_KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006120543461_ThemData.cs" />
+    <Compile Include="Migrations\202006120543461_ThemData.Designer.cs">
+      <DependentUpon>202006120543461_ThemData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006120636599_AddHoa.cs" />
+    <Compile Include="Migrations\202006120636599_AddHoa.Designer.cs">
+      <DependentUpon>202006120636599_AddHoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDBContext.cs" />
+    <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\Hoa.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -213,6 +227,9 @@
     <Content Include="Images\gif1.gif" />
     <Content Include="Images\gif2.gif" />
     <Content Include="Images\gif3.jpg" />
+    <Content Include="Images\icon_card.png" />
+    <Content Include="Images\icon_shipping.png" />
+    <Content Include="Images\icon_support.png" />
     <Content Include="Images\logo1.JPG" />
     <Content Include="Images\tim1.jpg" />
     <Content Include="Images\trang1.jpg" />
@@ -291,6 +308,10 @@
     <Content Include="Views\Admin\Details.cshtml" />
     <Content Include="Views\Admin\Edit.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Home\LienHe.cshtml" />
+    <Content Include="Views\KhachHangs\Create.cshtml" />
+    <Content Include="Views\KhachHangs\Edit.cshtml" />
+    <Content Include="Views\KhachHangs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -306,6 +327,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006111301244_Acc.resx">
       <DependentUpon>202006111301244_Acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006120529028_KhachHang.resx">
+      <DependentUpon>202006120529028_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006120543461_ThemData.resx">
+      <DependentUpon>202006120543461_ThemData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006120636599_AddHoa.resx">
+      <DependentUpon>202006120636599_AddHoa.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

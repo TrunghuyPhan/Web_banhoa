@@ -39,7 +39,7 @@
             @foreach (var item in Model)
             {
                 <div class="col-md-4 text-center col-sm-6 col-xs-6">
-                    <div @*class="thumbnail product-box"*@>
+                    <div >
                         <div class="pic">
                             <a href="/Hoa/XemChiTiet/@item.IdHoa">
                                 <img class="image" src="@Html.DisplayFor(modelItem => item.Hinh)" alt="">
@@ -47,12 +47,12 @@
                         </div>
                         <div class="caption">
                             <h2 class="h2"><a class="a" href="@Url.Action("XemChiTiet",new { id = item.IdHoa})">  @Html.DisplayFor(modelItem => item.Ten) </a></h2>
-                            <span class="gia">Giá : <strong>@Html.DisplayFor(modelItem => item.Gia)</strong>  </span>
+                            <span class="gia">Giá : <strong>@Html.DisplayFor(modelItem => item.GiaBan)</strong>  </span>
 
                             <p>
 
                                 <a href="#" id="btn1" class="btn btn-success fa fa-shopping-cart" role="button" >  Đặt mua</a>
-                                @*<a href="@Url.Action("XemChiTiet",new { id = item.IdHoa})" id="btn2" class="btn btn-primary" role="button">Xem Chi Tiết</a>*@
+                                
                             </p>
                         </div>
                     </div>

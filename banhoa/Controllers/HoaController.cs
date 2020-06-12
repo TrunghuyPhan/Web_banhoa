@@ -7,13 +7,14 @@ using System.Web.Mvc;
 
 namespace banhoa.Controllers
 {
+    
     public class HoaController : Controller
     {
         ApplicationDbContext dbContext = new ApplicationDbContext();
         // GET: Hoa
         public ActionResult Index()
         {
-            List<Hoa> listHoa = dbContext.hoas.Take(3).ToList();//database
+            List<Hoa> listHoa = dbContext.hoas.Take(20).ToList();//database
             return View(listHoa);
             
         }
@@ -22,5 +23,6 @@ namespace banhoa.Controllers
             Hoa hoa = dbContext.hoas.Find(id);//database
             return View("XemChiTiet", hoa);
         }
+    
     }
 }

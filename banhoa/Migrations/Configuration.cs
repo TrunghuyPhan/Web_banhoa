@@ -11,19 +11,22 @@ namespace banhoa.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(banhoa.Models.ApplicationDbContext context)
         {
+           
             
+            /*
 
             context.hoas.AddOrUpdate(x => x.IdHoa,
                 new Hoa()
                 {
                     IdHoa = 1,
                     Ten = "Hoa A",
-                    Gia = 100000,
-                   
+                    GiaBan = 100000,
+                   MoTa="dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
                  
                 },
@@ -31,27 +34,26 @@ namespace banhoa.Migrations
                 new Hoa()
                 {
                     IdHoa = 2,
-                    Ten = "Hoa B",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
 
                 },
                 new Hoa()
                 {
                     IdHoa = 3,
-                    Ten = "Hoa C",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
-
                 },
                 new Hoa()
                 {
                     IdHoa = 4,
-                    Ten = "Hoa D",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
 
                 },
@@ -59,27 +61,27 @@ namespace banhoa.Migrations
                 new Hoa()
                 {
                     IdHoa = 5,
-                    Ten = "Hoa E",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
 
                 },
                 new Hoa()
                 {
                     IdHoa = 6,
-                    Ten = "Hoa F",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
 
                 },
                  new Hoa()
                  {
                      IdHoa = 7,
-                     Ten = "Hoa G",
-                     Gia = 100000,
-
+                     Ten = "Hoa A",
+                     GiaBan = 100000,
+                     MoTa = "dkfsdhfksjhdfjksdf",
                      Hinh = "/images/tim1.jpg"
 
                  },
@@ -87,22 +89,23 @@ namespace banhoa.Migrations
                 new Hoa()
                 {
                     IdHoa = 8,
-                    Ten = "Hoa H",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
 
                 },
                 new Hoa()
                 {
                     IdHoa = 9,
-                    Ten = "Hoa K",
-                    Gia = 100000,
-
+                    Ten = "Hoa A",
+                    GiaBan = 100000,
+                    MoTa = "dkfsdhfksjhdfjksdf",
                     Hinh = "/images/tim1.jpg"
 
                 }
                 );
+            */
         }
     }
 }

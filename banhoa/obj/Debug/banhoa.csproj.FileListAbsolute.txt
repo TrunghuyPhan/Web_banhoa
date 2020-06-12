@@ -352,3 +352,155 @@ C:\Users\TrungHuy\Desktop\Web_banhoa-master - Copy\banhoa\obj\Debug\banhoa.dll
 C:\Users\TrungHuy\Desktop\Web_banhoa-master - Copy\banhoa\obj\Debug\banhoa.pdb
 D:\GITHUBSRC\Web_banhoa\banhoa\obj\Debug\banhoa.csprojResolveAssemblyReference.cache
 D:\GITHUBSRC\Web_banhoa\banhoa\obj\Debug\banhoa.Migrations.Acc.resources
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\csc.exe
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\System.Collections.Immutable.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\System.Reflection.Metadata.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\vbc.exe
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\VBCSCompiler.exe
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\VBCSCompiler.exe.config
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\banhoa.dll.config
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\banhoa.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\banhoa.pdb
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Antlr3.Runtime.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.SqlServer.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Google.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Web.Infrastructure.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Newtonsoft.Json.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Owin.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Helpers.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Mvc.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Optimization.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Razor.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Deployment.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Razor.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\WebGrease.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Helpers.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Mvc.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Optimization.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Razor.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Deployment.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Razor.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Antlr3.Runtime.pdb
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Newtonsoft.Json.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.SqlServer.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Google.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.csprojAssemblyReference.cache
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.createtableHoa.resources
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.Acc.resources
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.KhachHang.resources
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.ThemData.resources
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.AddHoa.resources
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.csproj.GenerateResource.cache
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.csproj.CoreCompileInputs.cache
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.csproj.CopyComplete
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.dll
+D:\ANHHUYNH\FILE LAB TH\WEB\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.pdb
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\csc.exe
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\vbc.exe
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\VBCSCompiler.exe
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\banhoa.dll.config
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\banhoa.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\banhoa.pdb
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Antlr3.Runtime.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.SqlServer.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Newtonsoft.Json.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Owin.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Helpers.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Mvc.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Optimization.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Razor.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Razor.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\WebGrease.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Helpers.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Mvc.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Optimization.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.Razor.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\System.Web.WebPages.Razor.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Antlr3.Runtime.pdb
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Newtonsoft.Json.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\EntityFramework.SqlServer.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.csprojResolveAssemblyReference.cache
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.createtableHoa.resources
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.Acc.resources
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.KhachHang.resources
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.ThemData.resources
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.Migrations.AddHoa.resources
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.csproj.GenerateResource.Cache
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.dll
+C:\Users\TrungHuy\Desktop\BanHoa_CoDaTa\Web_banhoa-master\banhoa\obj\Debug\banhoa.pdb

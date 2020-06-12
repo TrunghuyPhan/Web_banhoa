@@ -1,0 +1,177 @@
+﻿
+@{
+    ViewBag.Title = "LienHe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+</style>
+<br />
+<div class="row">
+    <div id="map"></div>
+
+    <script>
+        var map;
+        function initMap(zoomeLevel, latDb, longDb) {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: latDb != null ? latDb : 10.8020089, lng: longDb != null ? longDb : 106.7148413 },
+                zoom: zoomeLevel != null ? zoomeLevel : 17
+            });
+
+        }
+
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJOZd-P3bAJXBAYtfryQT_GTv61uRehMs&callback=initMap" async defer></script>
+</div>
+
+<div class="row">
+    <div>
+        <div class="col-sm-4">
+            <h4>Phương thức thanh toán &amp; giao hàng</h4>
+            <div class="content">
+                <div class="toasang">
+                    <img src="~/Images/icon_shipping.png" />
+                </div>
+                <p><strong class="bold">Miễn phí vận chuyển cho đơn hàng trên 1.000.000VNĐ</strong></p>
+                <ul style="font-size:large;">
+                    <li class="fa fa-check-circle">
+                        <a href="#" title="">
+                            Giao hàng và thu tiền tận nơi
+                        </a>
+                    </li>
+                    <li class="fa fa-check-circle">
+                        <a href="#" title="">Chuyển khoản và giao hàng</a>
+                    </li>
+                    <li class="fa fa-check-circle">
+                        <a href="#" title="">Mua hàng tại shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h4>Hỗ trợ 24/7</h4>
+            <div class="content">
+                <div class="toasang">
+                    <img src="~/Images/icon_support.png" />
+                </div>
+                <p><strong>Gọi ngay cho chúng tôi khi bạn có thắc mắc</strong></p>
+                <ul style="font-size:xx-large;">
+                    <li class="fa fa-check-circle">
+                        <strong class="big npl">0123456789 </strong>
+                    </li>
+                    <li class="fa fa-check-circle">
+                        <strong class="big npl">0987654321 </strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h4>Thẻ thành viên</h4>
+            <div class="content">
+                <div class="toasang">
+                    <img src="~/Images/icon_card.png" />
+                </div>
+                <p><strong class="bold">Chế độ ưu đãi thành viên VIP:</strong></p>
+                <ul style="font-size:large;">
+                    <li class="fa fa-check-circle">5% cho thành viên Bạc</li>
+                    <li class="fa fa-check-circle">10% cho thành viên Vàng</li>
+                    <li class="fa fa-check-circle">15% cho thành viên Kim cương</li>
+                </ul>
+            </div>
+        </div>
+      
+        <div class="aaa">
+            @Html.ActionLink("Nhap Thong Tin", "Create", "KhachHangs")
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .aaa a{
+        text-align:center;
+    }
+    .hoverSlideHome img {
+        -webkit-transform: scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+        -moz-transform: scale(0.8); /*Mozilla scale version*/
+        -o-transform: scale(0.8); /*Opera scale version*/
+        -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+        -moz-transition-duration: 0.5s; /*Mozilla duration version*/
+        -o-transition-duration: 0.5s; /*Opera duration version*/
+        opacity: 0.9; /*initial opacity of images*/
+        margin: 0 10px 5px 0; /*margin between images*/
+    }
+
+        .hoverSlideHome img:hover {
+            -webkit-transform: scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+            -moz-transform: scale(1.1); /*Mozilla scale version*/
+            -o-transform: scale(1.1); /*Opera scale version*/
+            box-shadow: 0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+            -webkit-box-shadow: 0px 0px 30px gray; /*Safari shadow version*/
+            -moz-box-shadow: 0px 0px 30px gray; /*Mozilla shadow version*/
+            opacity: 1;
+        }
+
+    .toasang {
+        margin: 20px;
+        position: relative;
+        display: block;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        border-radius: 100%;
+        font: 700 30px/80px 'arial';
+        text-decoration: none;
+        color: #313131;
+        z-index: 1;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+
+        .toasang:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 100%;
+            background: #dfdfdf;
+            z-index: -1;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        .toasang:hover {
+            color: #fff;
+            background: #399;
+        }
+
+            .toasang:hover:after {
+                background: transparent;
+                -webkit-transform: scale(1.6);
+                -moz-transform: scale(1.6);
+                -ms-transform: scale(1.6);
+                -o-transform: scale(1.6);
+                transform: scale(1.6);
+            }
+</style>
+
+
+

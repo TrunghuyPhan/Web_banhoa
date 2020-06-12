@@ -5,39 +5,43 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <link href="~/Content/render-index.css" rel="stylesheet" />
-<h2>XemChiTiet</h2>
+<div class="body" style="margin-top:20px">
+    <div class="container">
+        <div style="font-size:20px">
+            <h2 style="font-weight:600">Thông tin sản phẩm</h2>
+            <hr />
 
-<div style="font-size:20px">
-    <h4>Hoa</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Ten)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Ten)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Gia)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Gia)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Hinh)
-        </dt>
-
-        <dd>
-                <img class="image" src="@Html.DisplayFor(model => model.Hinh)"/>
-        </dd>
+            <img class="image" style="float:left" src="@Html.DisplayFor(model => model.Hinh)" />
+            <div style="margin-left:20px;float:left">
+                <div style="display:inline;font-weight:700;font-size:25px;">
+                    @Html.DisplayFor(model => model.Ten)
+                </div>
+                <dl>
+                    <dt>
+                        <h2 style="font-weight:600;font-size:23px;margin-top:10px;">Gía bán: <div style="margin-left:20px;display:inline;font-size:22px;color:red">@Html.DisplayFor(model => model.GiaBan)₫</div></h2>
+                    </dt>
+                    <dt style="margin-top:10px">
+                        <h2 style="font-weight:600;font-size:23px;">Mô tả: </h2>
+                    </dt>
+                    <dd style="margin-left:100px;font-size:20px;float:left;width:500px">
+                        @Html.DisplayFor(model => model.MoTa)
+                    </dd>
+                </dl>
+                <button type="button" id="btn1" style="color:white;background-color:black;">Mua ngay <i class="fa fa-arrow-right"></i></button>
+            </div>
+            
+            
+        </div>
+           
         
-    </dl>
+    </div>
+    <button type="button" class="btn btn-default">
+        @Html.ActionLink("Quay lại", "Index")
+    </button>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.IdHoa }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+
+       
+
+
+
